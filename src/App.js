@@ -9,12 +9,13 @@ import Products from './pages/Products';
 import Supports from './pages/Supports';
 
 
+
 import Home from "./pages/Home.js";
 function App() {
   return (
     <div className="App">
       <Header/>
-      <main className="py-2">
+      <main className="py-1">
         <Container>
         <Routes>
         <Route path="/" element={<Home/>}/>

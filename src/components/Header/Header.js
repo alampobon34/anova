@@ -1,11 +1,13 @@
-import React from "react";
+import {React} from "react";
 import "./Header.css";
 import { Container, Navbar, Nav, NavDropdown, Row, Col } from "react-bootstrap";
 import { FaSearch, FaCartArrowDown, FaUserAlt } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { LinkContainer } from 'react-router-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Header() {
+
+
   return (
     <header>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -36,13 +38,13 @@ function Header() {
               </LinkContainer>
               
               
-              {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-            </NavDropdown> */}
+            </NavDropdown>
             </Nav>
             <Nav>
               <Nav.Link href="#search">
